@@ -10,6 +10,9 @@
 		F14F0636239F8F8B00ED295D /* UnitTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14F062C239F8F8B00ED295D /* UnitTestDemo.framework */; };
 		F14F063B239F8F8B00ED295D /* UnitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F063A239F8F8B00ED295D /* UnitTestDemoTests.m */; };
 		F14F063D239F8F8B00ED295D /* UnitTestDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = F14F062F239F8F8B00ED295D /* UnitTestDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F14F0648239F904B00ED295D /* SayHi.h in Headers */ = {isa = PBXBuildFile; fileRef = F14F0646239F904B00ED295D /* SayHi.h */; };
+		F14F0649239F904B00ED295D /* SayHi.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F0647239F904B00ED295D /* SayHi.m */; };
+		F14F064B239F92D900ED295D /* SayHi.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F0647239F904B00ED295D /* SayHi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,8 @@
 		F14F0635239F8F8B00ED295D /* UnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14F063A239F8F8B00ED295D /* UnitTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestDemoTests.m; sourceTree = "<group>"; };
 		F14F063C239F8F8B00ED295D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14F0646239F904B00ED295D /* SayHi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayHi.h; sourceTree = "<group>"; };
+		F14F0647239F904B00ED295D /* SayHi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayHi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				F14F062F239F8F8B00ED295D /* UnitTestDemo.h */,
+				F14F0646239F904B00ED295D /* SayHi.h */,
+				F14F0647239F904B00ED295D /* SayHi.m */,
 				F14F0630239F8F8B00ED295D /* Info.plist */,
 			);
 			path = UnitTestDemo;
@@ -94,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F14F063D239F8F8B00ED295D /* UnitTestDemo.h in Headers */,
+				F14F0648239F904B00ED295D /* SayHi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14F0649239F904B00ED295D /* SayHi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14F064B239F92D900ED295D /* SayHi.m in Sources */,
 				F14F063B239F8F8B00ED295D /* UnitTestDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
