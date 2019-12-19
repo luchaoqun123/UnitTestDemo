@@ -3,15 +3,15 @@
 //  UnitTestDemo
 //
 //  Created by DravenLu on 2019/12/10.
-//  Copyright © 2019 SuBao Tech. All rights reserved.
+//  Copyright © 2019 DravenLu Tech. All rights reserved.
 //
 
 #import "SayHi.h"
 
 @implementation SayHi
 
-+ (void)sayHi:(id)word {
-    NSLog(@"%@",word);
++ (void)sayHi {
+    NSLog(@"Hi");
 }
 
 @end

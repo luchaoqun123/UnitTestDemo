@@ -1,5 +1,5 @@
 //
-//  SayHi.h
+//  SayWordsYouWant.h
 //  UnitTestDemo
 //
 //  Created by DravenLu on 2019/12/10.
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SayHi : NSObject
+@interface SayWordsYouWant : NSObject
 
-+ (void)sayHi;
++ (void)sayWordsYouWant:(id)word;
 
 @end
 
