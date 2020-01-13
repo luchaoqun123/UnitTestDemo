@@ -17,6 +17,10 @@
 		F14F0653239FC30400ED295D /* SayWordsYouWant.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F0651239FC30400ED295D /* SayWordsYouWant.m */; };
 		F14F0655239FC36D00ED295D /* SayWordsYouWantTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F14F0654239FC36D00ED295D /* SayWordsYouWantTest.m */; };
 		F14F065623A0E4E200ED295D /* SayWordsYouWant.h in Sources */ = {isa = PBXBuildFile; fileRef = F14F0650239FC30400ED295D /* SayWordsYouWant.h */; };
+		F197CC1F23C08D3F0045592D /* OutputWords.h in Headers */ = {isa = PBXBuildFile; fileRef = F197CC1D23C08D3F0045592D /* OutputWords.h */; };
+		F197CC2023C08D3F0045592D /* OutputWords.m in Sources */ = {isa = PBXBuildFile; fileRef = F197CC1E23C08D3F0045592D /* OutputWords.m */; };
+		F197CC2223C08D6E0045592D /* OutputWordsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F197CC2123C08D6E0045592D /* OutputWordsTest.m */; };
+		F197CC2423C08F720045592D /* OutputWords.h in Sources */ = {isa = PBXBuildFile; fileRef = F197CC1D23C08D3F0045592D /* OutputWords.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 		F14F0650239FC30400ED295D /* SayWordsYouWant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SayWordsYouWant.h; sourceTree = "<group>"; };
 		F14F0651239FC30400ED295D /* SayWordsYouWant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayWordsYouWant.m; sourceTree = "<group>"; };
 		F14F0654239FC36D00ED295D /* SayWordsYouWantTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayWordsYouWantTest.m; sourceTree = "<group>"; };
+		F197CC1D23C08D3F0045592D /* OutputWords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutputWords.h; sourceTree = "<group>"; };
+		F197CC1E23C08D3F0045592D /* OutputWords.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutputWords.m; sourceTree = "<group>"; };
+		F197CC2123C08D6E0045592D /* OutputWordsTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutputWordsTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,8 @@
 				F14F0647239F904B00ED295D /* SayHi.m */,
 				F14F0650239FC30400ED295D /* SayWordsYouWant.h */,
 				F14F0651239FC30400ED295D /* SayWordsYouWant.m */,
+				F197CC1D23C08D3F0045592D /* OutputWords.h */,
+				F197CC1E23C08D3F0045592D /* OutputWords.m */,
 				F14F0630239F8F8B00ED295D /* Info.plist */,
 			);
 			path = UnitTestDemo;
@@ -98,6 +107,7 @@
 			children = (
 				F14F063A239F8F8B00ED295D /* UnitTestDemoTests.m */,
 				F14F0654239FC36D00ED295D /* SayWordsYouWantTest.m */,
+				F197CC2123C08D6E0045592D /* OutputWordsTest.m */,
 				F14F063C239F8F8B00ED295D /* Info.plist */,
 			);
 			path = UnitTestDemoTests;
@@ -113,6 +123,7 @@
 				F14F063D239F8F8B00ED295D /* UnitTestDemo.h in Headers */,
 				F14F0652239FC30400ED295D /* SayWordsYouWant.h in Headers */,
 				F14F0648239F904B00ED295D /* SayHi.h in Headers */,
+				F197CC1F23C08D3F0045592D /* OutputWords.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F197CC2023C08D3F0045592D /* OutputWords.m in Sources */,
 				F14F0649239F904B00ED295D /* SayHi.m in Sources */,
 				F14F0653239FC30400ED295D /* SayWordsYouWant.m in Sources */,
 			);
@@ -222,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F197CC2423C08F720045592D /* OutputWords.h in Sources */,
 				F14F065623A0E4E200ED295D /* SayWordsYouWant.h in Sources */,
+				F197CC2223C08D6E0045592D /* OutputWordsTest.m in Sources */,
 				F14F0655239FC36D00ED295D /* SayWordsYouWantTest.m in Sources */,
 				F14F064B239F92D900ED295D /* SayHi.m in Sources */,
 				F14F063B239F8F8B00ED295D /* UnitTestDemoTests.m in Sources */,
